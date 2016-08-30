@@ -1,0 +1,189 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #f2f5fe;
+	font: 70% 160% "verdana", sans-serif;
+}
+p{
+	margin: 1em 0;
+	padding: 0;
+}
+.clear{
+	clear: both;
+}
+#titulo, #subtitulo, #texto{
+	margin: 1em 0;
+	padding: 0;
+}
+#titulo{
+	font-size: 260%;
+	font-family: "georgia", serif;
+	font-weight: normal;
+}
+ #subtitulo, #primario, #inicial, #secundario, #filosofia, #mision, #vision{
+	font-size: 180%;
+	font-family: "georgia", serif;
+	font-weight: normal;
+	color: #000000;
+}
+ #texto{
+	font-size: 120%;
+	font-family: "georgia", serif;
+	font-weight: normal;
+	color: #000000;
+}
+ul, ol{
+	margin: 1em 0 1em 2em;
+	padding: 0;
+}
+/*******tamaño*/
+#contenedor{
+	width: 800px;
+	margin: 50px auto;
+}
+#encabezado{
+	width: 800px;
+	position: relative;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	color: #008800;
+}
+#consult{
+	width: 850px;
+	position: relative;
+	height: 100px;
+	margin-top: 25px;
+	padding: 0;
+}
+#consult #imagen{
+	float: left;
+	width: 520px;
+	margin: 0;
+	padding: 0;
+}
+#consult #consultas{
+	float: left;
+	width: 255px;
+	margin:0;
+	padding: 15px 0 30px 30px;
+	background: #ffffcc;
+}
+#contenido{
+	width: 845px;
+	margin: 0 5px;
+	background: #fff;
+}
+#contenido #noticia1,  #noticia2{
+	float: left;
+	width: 377px;
+	margin: 10px 0 0 0;
+	padding: 10px;
+	background: #ffffcc;
+}
+#pie{
+	clear: both;
+	height: 60px;
+	margin-bottom: 50px;
+	background: url("img/pie.gif") no-repeat;
+	color: #6685cc;
+	position: relative;
+}
+/*---------------Menú-----*/
+#menu{
+	background: #009900;
+	margin: 0 5px;
+	padding: 10px 0 0 0;
+}
+#menu ul{
+	margin: 0 10px;
+	padding: 0;
+	list-style: none;
+}
+#menu ul li{
+	margin: 0 5px 0 0;
+	padding: 0;
+	float:left;
+}
+#menu ul li a{
+	display:block;
+	position:relative;
+	padding:5px 47px;
+	border:0;
+	background: #009900;
+	color: #0000dd;
+	font-weight:bold;
+	text-decoration:none;
+	cursor:pointer;
+}
+#menu ul li a:hover{
+	background: #fff;
+	color: #008800;
+}
+#menu ul li.seleccionado a{
+	background: #fff;
+	color: #0000dd;
+}
+/*------Contenido---*/
+#contenido .noticia1 .noticia2{
+	clear:both;
+	margin:0;
+	padding:20px;
+	background: #008800;
+}
+#borde{
+	border: 1px;
+}
+/*----------------Pie------------------*/
+#pie p{
+	margin:0;
+	padding:0;
+	position: absolute;
+	top:10px;
+	left:40px;
+	color: #009900;
+}
+/******* estilo de nivel*/
+#nivel1{
+	float: left;
+	width: 330px;
+	margin: 10px 0 0 0;
+	padding: 10px;
+	background: #ffffcc;
+}
+#video{
+	float: left;
+	width: 450px;
+	margin: 60px 0 0 0;
+	padding: 0;
+	background: #000000;
+}
+#nivel2{
+	width: 800px;
+	margin: 10px 0 0 0;
+	padding: 10px;
+	background: #ffffcc;
+}
+/*******estilo sobre nosotros****/
+#colegio{
+	float: left;
+	width: 400px;
+	margin: 10px 0 0 0;
+	padding: 10px;
+	background: #ffffcc;
+}
+#ubicacion{
+	float: left;
+	width: 330px;
+	margin: 10px 15px;
+	padding: 10px;
+	background: #ffffcc;
+}
+/***enlaces/*/
+#enlace{
+	float: left;
+	width: 750px;
+	margin: 10px 15px;
+	padding: 10px;
+	background: #ffffcc;
+}
